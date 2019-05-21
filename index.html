@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+
+    <meta charset="utf-8">
+    <meta name="description" content="New College Granada Web">
+    <meta name="keywords" content="NCG, New College Granada, english, Granada, Spain">
+    <meta name="author" content="Iberim">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- TITLE -->
+    <title>NCG - New College Granada</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWymGgczWAZsoY4F6JGjVQtujf8Dg7kwE&callback=initMap"
+      async defer>
+    </script>
+    <script src="./static/js/handler/index.js"></script>
+    <script src="./static/js/utils.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar justify-content-between little-nav">
+          <div id="logo" class="navbar-brand">
+            <strong><a href="./index.html">NCG</a></strong>
+          </div>
+          <div id="bars" onclick="nav_animation(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </nav>
+      
+        <nav class="navbar navbar-expand-lg long-nav">
+          <div class="collapse navbar-collapse">
+            <ul id="long-menu" class="navbar-nav">
+              <li id="logo" class="nav-item active"><strong><a href="./index.html">NCG</a></strong></li>
+             <li class="nav-item active"><a class="nav-link" href="./officialTitles.html">Titulos oficiales</a></li>
+             <li class="nav-item active"><a class="nav-link" href="./tutoring.html">Apoyo escolar</a></li>
+             <li class="nav-item active"><a class="nav-link" href="./foreigner.html">Servicios para extranjeros</a></li>
+             <li class="nav-item active"><a class="nav-link" href="./translation.html">Servicios de traducción</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <div id="scroll-menu-options">
+          <ul class="list-group">
+           <li class="list-group-item"><a href="./officialTitles.html">Titulos oficiales</a></li>
+           <li class="list-group-item"><a href="./tutoring.html">Apoyo escolar</a></li>
+           <li class="list-group-item"><a href="./foreigner.html">Servicios para extranjeros</a></li>
+           <li class="list-group-item"><a href="./translation.html">Servicios de traducción</a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+    </header>
+    <main>
+      <div id="long-page-one" class="container-fluid">
+        <div class="row">
+          <div class="col carousel-col">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./static/img/1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./static/img/2.png" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="description">
+              <div class="ms-header">
+                <h1 class="ms-header__title">
+                  <div class="ms-slider">
+                    <ul class="ms-slider__words">
+                      <li class="ms-slider__word">¡Bienvenidos!</li>
+                      <li class="ms-slider__word">Welcome!</li>
+                      <li class="ms-slider__word">Bienvenu!</li>
+                      <li class="ms-slider__word">مرحبا</li>
+                      <li class="ms-slider__word">欢迎</li>
+                      <li class="ms-slider__word">Willkommen!</li>
+                      <li class="ms-slider__word">Benvenuto!</li>
+                      <li class="ms-slider__word">Bem-vindo!</li>
+                      <!-- This last word needs to duplicate the first one to ensure a smooth infinite animation -->
+                      <li class="ms-slider__word">¡Bienvenidos!</li>
+                    </ul>
+                  </div>
+                </h1>
+              </div>
+              <p>New College Granada (NCG) Centro Examinador Trinity con número 65110,
+                Centro Preparador Oficial Cambridge y Entidad Colaboradora UNED,
+                es una escuela de idiomas ubicada en la bella ciudad de la Alhambra,
+                 a menos de 10m del centro.</p>
+            </div>
+            <div>
+               <a id="knowmore" class="btn btn-success whatsapp" href="https://api.whatsapp.com/send?phone=+34678223828&text=Buenas%20Tardes!">
+                 <i class="fab fa-whatsapp"></i> Saber más...
+               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page-one">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./static/img/1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./static/img/2.png" alt="Second slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="description">
+          <div class="ms-header">
+            <h1 class="ms-header__title">
+              <div class="ms-slider">
+                <ul class="ms-slider__words">
+                  <li class="ms-slider__word">¡Bienvenidos!</li>
+                  <li class="ms-slider__word">Welcome!</li>
+                  <li class="ms-slider__word">Bienvenu!</li>
+                  <li class="ms-slider__word">مرحبا</li>
+                  <li class="ms-slider__word">欢迎</li>
+                  <li class="ms-slider__word">Willkommen!</li>
+                  <li class="ms-slider__word">Benvenuto!</li>
+                  <li class="ms-slider__word">Bem-vindo!</li>
+                  <!-- This last word needs to duplicate the first one to ensure a smooth infinite animation -->
+                  <li class="ms-slider__word">¡Bienvenidos!</li>
+                </ul>
+              </div>
+            </h1>
+          </div>
+          <p>New College Granada (NCG) Centro Examinador Trinity con número 65110,
+            Centro Preparador Oficial Cambridge y Entidad Colaboradora UNED,
+            es una escuela de idiomas ubicada en la bella ciudad de la Alhambra,
+             a menos de 10m del centro.</p>
+        </div>
+        <div>
+           <a id="knowmore" class="btn btn-success whatsapp" href="https://api.whatsapp.com/send?phone=+34678223828&text=Buenas%20Tardes!">
+             <i class="fab fa-whatsapp"></i> Saber más...
+           </a>
+        </div>
+        <div class="description">
+          <p>Nos dedicamos a la enseñanza de inglés, francés,
+              alemán, italiano, árabe, chino, hebreo,portugués o español para
+              extranjeros como lenguas modernas e impartimos asignaturas de apoyo
+              escolar</p>
+          </p>
+        </div>
+      </div>
+      <div class="block-panel">
+        <div id="characteristics">
+          <h3>Características</h3>
+          <p>NCG dispone de cuatro aulas totalmente equipadas para el estudio de
+            idiomas a través de métodos diferentes y fáciles  (TV, DVD, equipo de
+            audio y CD, proyectores para la proyección de clases). En nuestro centro
+            NCG, podrá disfrutar de nuestros siguientes servicios gratuitos:</p>
+          <ul>
+           <li><i class="fas fa-check green-success"></i> Test de nivel a la llegada a nuestro centro</li>
+           <li><i class="fas fa-check green-success"></i> Entrega de carpeta y bolígrafo como gesto de bienvenida</li>
+           <li><i class="fas fa-check green-success"></i> Acceso a internet gratis</li>
+           <li><i class="fas fa-check green-success"></i> Préstamo de libros, videos y DVD</li>
+           <li><i class="fas fa-check green-success"></i> Certificado a final del curso</li>
+           <li><i class="fas fa-check green-success"></i> Material de apoyo durante el curso</li>
+          </ul>
+        </div>
+      </div>
+      <div id="teachers">
+        <h3>Nuestros profesores</h3>
+        <p>Nuestro centro cuenta con un grupo de profesores muy profesionales y
+          dinámicos, licenciados y con mucha preparación metodológica para enseñar
+           asignaturas de la rama de Letras y de Ciencias y otros idiomas de
+           forma eficaz y al alcance de todos los niveles para todo tipo de público. </p>
+        <div class="teachers-container">
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Fátima Boulhdir Martin</h5>
+          </div>
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Tamer h. a. Amer </h5>
+          </div>
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Andrea</h5>
+          </div>
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Diego Jiménez Peña</h5>
+          </div>
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Alejandro Morales </h5>
+          </div>
+          <div class="card-custom">
+            <img src="./static/img/teacher1.png">
+            <h5 class="teacher-name">Mila</h5>
+          </div>
+        </div>
+      </div>
+      <div class="block-panel">
+        <div id="schedules">
+          <h3>Horarios</h3>
+          <p>Las clases se imparten en cada idioma, en todos los niveles:</p>
+          <ul class="ul-no-style">
+            <li><i class="fas fa-check green-success"></i> El horario de los cursos abarca de lunes a viernes:
+            <div class="card card-custom">
+              <h5 class="card-title">Mañanas</h5>
+              <ul>
+                <li>9:00</li>
+                <li>-</li>
+                <li>14:00</li>
+              </ul>
+            </div>
+            <div class="card card-custom">
+              <h5 class="card-title">Tardes</h5>
+              <ul>
+                <li>16:00</li>
+                <li>-</li>
+                <li>21:00</li>
+              </ul>
+            </div>
+            </li>
+            <br>
+            <li><i class="fas fa-check green-success"></i> Antes de comenzar el curso, se hará un test de nivel para determinar el nivel de cada alumno</li>
+            <br>
+            <li><i class="fas fa-check green-success"></i> Al finalizar el curso se le entrega al alumno su certificado de asistencia. Siempre y cuando se asista al 80% de las clases como mínimo.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="howtogo">
+        <h3>Cómo llegar</h3>
+        <p><strong>Dirección:</strong> Calle Gardenia nº1 bajo 11 y 12, CP 18006 Granada (España)</p>
+        <div id="map"></div>
+      </div>
+      <h2 id="final-text">¡Os esperamos a todos!</h2>
+    </main>
+    <footer>
+      <script src="./static/js/utils.js"></script>
+<div>
+  <div>
+     <a class="btn btn-success whatsapp" href="https://api.whatsapp.com/send?phone=+34678223828&text=Buenas%20Tardes!">
+       <i class="fab fa-whatsapp"></i> Preguntanos por whatsapp
+     </a>
+  </div>
+  <div id="social" class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <ul class="ul-no-style">
+          <li>New College Granada</li>
+          <li><strong>C.I.F.:</strong> 75151922 C</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="ul-no-style">
+          <li><i class="fas fa-envelope-square"></i> newcollegegranada@gmail.com</li>
+          <li><i class="fas fa-phone-square"></i> +34 958 079 411</li>
+          <li><i class="fab fa-whatsapp"></i> +34662470678 / +34671299360 / +34678223828</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="ul-no-style">
+          <li><strong>Directora:</strong> Fátima Boulhdir Martín</li>
+          <li><strong>Secretario e información:</strong> Tamer Haroon Amer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </footer>
+  </body>
+</html>

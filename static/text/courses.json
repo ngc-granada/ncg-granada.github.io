@@ -1,0 +1,542 @@
+[
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B1",
+    "title": "trinity",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 65 €",
+        "col2": "2 mes: 125 €",
+        "col3": "3 mes: 185 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 115 €",
+        "col2": "2 mes: 230 €",
+        "col3": "3 mes: 330 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 140 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B2",
+    "title": "trinity",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 70 €",
+        "col2": "2 mes: 135 €",
+        "col3": "3 mes: 200 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 116 €",
+        "col2": "2 mes: 225 €",
+        "col3": "3 mes: 335 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 180 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C1",
+    "title": "trinity",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C2",
+    "title": "trinity",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B1",
+    "title": "cambridge",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 65 €",
+        "col2": "2 mes: 125 €",
+        "col3": "3 mes: 185 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 115 €",
+        "col2": "2 mes: 230 €",
+        "col3": "3 mes: 330 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 140 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B2",
+    "title": "cambridge",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 70 €",
+        "col2": "2 mes: 135 €",
+        "col3": "3 mes: 200 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 116 €",
+        "col2": "2 mes: 225 €",
+        "col3": "3 mes: 335 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 180 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C1",
+    "title": "cambridge",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C2",
+    "title": "cambridge",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B1",
+    "title": "eoi",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 65 €",
+        "col2": "2 mes: 125 €",
+        "col3": "3 mes: 185 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 115 €",
+        "col2": "2 mes: 230 €",
+        "col3": "3 mes: 330 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 140 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B2",
+    "title": "eoi",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 70 €",
+        "col2": "2 mes: 135 €",
+        "col3": "3 mes: 200 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 116 €",
+        "col2": "2 mes: 225 €",
+        "col3": "3 mes: 335 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 180 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C1",
+    "title": "eoi",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C2",
+    "title": "eoi",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B1",
+    "title": "aptis",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 65 €",
+        "col2": "2 mes: 125 €",
+        "col3": "3 mes: 185 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 115 €",
+        "col2": "2 mes: 230 €",
+        "col3": "3 mes: 330 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 140 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B2",
+    "title": "aptis",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 70 €",
+        "col2": "2 mes: 135 €",
+        "col3": "3 mes: 200 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 116 €",
+        "col2": "2 mes: 225 €",
+        "col3": "3 mes: 335 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 180 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C1",
+    "title": "aptis",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C2",
+    "title": "aptis",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B1",
+    "title": "clm",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 65 €",
+        "col2": "2 mes: 125 €",
+        "col3": "3 mes: 185 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 115 €",
+        "col2": "2 mes: 230 €",
+        "col3": "3 mes: 330 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 140 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "B2",
+    "title": "clm",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 70 €",
+        "col2": "2 mes: 135 €",
+        "col3": "3 mes: 200 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 116 €",
+        "col2": "2 mes: 225 €",
+        "col3": "3 mes: 335 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 180 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C1",
+    "title": "clm",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  },
+  {
+    "abbr": "en",
+    "course_name": "Inglés",
+    "level": "C2",
+    "title": "clm",
+    "description": "<ul><li><i class=\"fas fa-check green-success\"></i> Exento de matrícula para todos los alumnos de nuevo ingreso.</li><li><i class=\"fas fa-check green-success\"></i> Clases recuperables dentro del mismo mes.</li><li><i class=\"fas fa-check green-success\"></i> Material incluido en la cuota mensual.</li><li><i class=\"fas fa-check green-success\"></i> Adaptación de horario máxima a disponibilidad del alumno.</li><li><i class=\"fas fa-check green-success\"></i> Facilidad de pago.</li></ul>",
+    "packages": [
+      {
+        "title": "3 horas/semana 12 horas/mes",
+        "col1": "1 mes: 85 €",
+        "col2": "2 mes: 155 €",
+        "col3": "3 mes: 225 €"
+      },
+      {
+        "title": "5 horas/semana 20 horas/mes",
+        "col1": "1 mes: 137 €",
+        "col2": "2 mes: 260 €",
+        "col3": "3 mes: 385 €"
+      },
+      {
+        "title": "10 horas/semana 40 horas/mes",
+        "col1": "1 mes: 220 €",
+        "col2": "",
+        "col3": ""
+      }
+    ]
+  }
+]

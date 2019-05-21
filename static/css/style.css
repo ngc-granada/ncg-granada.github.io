@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  font-family: raleway; }
+
+#page-one {
+  display: none; }
+
+#long-page-one {
+  display: block; }
+  #long-page-one .carousel-col {
+    padding: 0; }
+
+.ms-header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  jsutify-content: center;
+  width: 100%;
+  font-family: sans-serif;
+  background: linear-gradient(right bottom, #9dd7d5, #fea096); }
+  .ms-header__title {
+    flex: 1 1 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); }
+
+.ms-slider {
+  display: inline-block;
+  height: 1.5em;
+  overflow: hidden;
+  vertical-align: middle;
+  mask-image: linear-gradient(transparent, white, white, white, transparent);
+  mask-type: luminance;
+  mask-mode: alpha; }
+  .ms-slider__words {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation-name: wordSlider;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s; }
+  .ms-slider__word {
+    display: block;
+    line-height: 1.3em;
+    text-align: center; }
+
+@keyframes wordSlider {
+  0%,
+    9% {
+    transform: translateY(0%); }
+  11%,
+    20% {
+    transform: translateY(-11.11%); }
+  22%,
+    31% {
+    transform: translateY(-22.22%); }
+  33%,
+    42% {
+    transform: translateY(-33.33%); }
+  44%,
+    53% {
+    transform: translateY(-44.44%); }
+  55%,
+    64% {
+    transform: translateY(-55.55%); }
+  66%,
+    75% {
+    transform: translateY(-66.66%); }
+  77%,
+    86% {
+    transform: translateY(-77.77%); }
+  88%,
+    97% {
+    transform: translateY(-88.88%); }
+  100% {
+    transform: translateY(-99.99); } }
+.top-img {
+  width: 100%;
+  height: auto; }
+
+nav {
+  background-color: #fff;
+  border-bottom: 2px solid red; }
+
+.little-nav {
+  display: none; }
+
+.long-nav {
+  display: block; }
+  .long-nav li .nav-link {
+    padding-top: 12px;
+    margin: 0 20px; }
+  .long-nav #logo {
+    font-size: 30px;
+    display: inline-block; }
+    .long-nav #logo a:link, .long-nav #logo a:visited {
+      text-decoration: none;
+      color: #00247d; }
+
+.ul-no-style {
+  list-style: none; }
+
+.consult {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 159px; }
+
+#bars {
+  display: inline-block;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px); }
+
+#scroll-menu-options {
+  display: none; }
+  #scroll-menu-options li {
+    text-align: center; }
+
+#carouselExampleControls img {
+  height: auto; }
+
+.custom-article {
+  margin: 20px 8%; }
+  .custom-article ul {
+    padding: 0; }
+    .custom-article ul li {
+      list-style: none; }
+
+#packages {
+  text-align: center; }
+  #packages h3 {
+    text-align: left; }
+  #packages .card {
+    margin: 3% 0;
+    font-size: 23px;
+    padding: 3%; }
+
+#official-title a {
+  margin: 0 auto;
+  display: block;
+  width: 300px; }
+
+.description, #characteristics, #teachers, #schedules, #howtogo h3 {
+  margin: 20px 8%; }
+
+.description {
+  text-align: justify; }
+
+.block-panel {
+  background-color: #e6e6e6e6; }
+
+#schedules {
+  padding: 10px 0; }
+  #schedules #dayinterval {
+    text-align: center; }
+  #schedules .ul-no-style {
+    list-style: none;
+    padding: 0; }
+  #schedules .card-custom {
+    margin: 3% auto;
+    width: 300px; }
+    #schedules .card-custom .card-title, #schedules .card-custom p {
+      text-align: center;
+      margin: 10px 0; }
+    #schedules .card-custom ul {
+      text-align: center;
+      margin: 10px 0;
+      padding: 0;
+      font-size: 18px;
+      list-style-type: none; }
+      #schedules .card-custom ul li {
+        margin: 0 10px;
+        display: inline-block; }
+
+#teachers {
+  text-align: center; }
+  #teachers img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+    height: 100px; }
+  #teachers #teachers-container {
+    margin: 0 auto; }
+  #teachers h3, #teachers p {
+    text-align: left; }
+  #teachers .card-custom {
+    margin: 3%;
+    padding: 32px 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    display: inline-block;
+    width: 230px;
+    height: 200px; }
+    #teachers .card-custom .teacher-name {
+      text-align: center; }
+
+#howtogo p {
+  margin: 20px 8%; }
+#howtogo #map {
+  width: 100%;
+  height: 400px;
+  background-color: grey; }
+
+#characteristics {
+  margin: 0 8%;
+  padding: 20px 0; }
+  #characteristics ul {
+    padding: 0 7%;
+    list-style-type: none; }
+
+.green-success {
+  color: #28a745; }
+
+#knowmore {
+  margin: 0 auto;
+  display: block;
+  padding: 3% 14%;
+  font-size: 19px;
+  width: 70%; }
+
+.course {
+  margin: 2% 8%; }
+  .course .title .title-name {
+    color: black; }
+  .course .title .content {
+    display: none; }
+    .course .title .content a {
+      margin: 0 auto;
+      display: block;
+      width: 50%;
+      margin: 2% auto;
+      background-color: #00247d;
+      border: 1px solid #00247d;
+      color: white; }
+    .course .title .content a:link, .course .title .content a:visited {
+      color: white; }
+
+#courses {
+  text-align: center; }
+  #courses .card-custom {
+    margin: 2%;
+    padding: 4%;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    display: inline-block; }
+    #courses .card-custom .teacher-name {
+      text-align: center; }
+
+.initial-title {
+  margin: 2% 8%; }
+
+.template-tables {
+  margin: 20px 0%; }
+
+#final-text {
+  margin: 25px 0;
+  text-align: center; }
+
+footer {
+  text-align: center;
+  border-top: 2px solid red;
+  padding: 5%;
+  background-color: #ececec; }
+  footer .whatsapp a:link, footer .whatsapp a:visited {
+    color: white;
+    text-decoration: none; }
+  footer #social {
+    margin-top: 20px; }
+    footer #social .row {
+      width: 100%; }
+      footer #social .row .col {
+        width: 100%; }
+    footer #social ul {
+      text-align: left;
+      padding: 0; }
+    footer #social i {
+      height: 10px; }
+
+@media only screen and (max-width: 1000px) {
+  #page-one {
+    display: block; }
+
+  #long-page-one {
+    display: none; }
+
+  .ms-header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    jsutify-content: center;
+    width: 100%;
+    font-family: sans-serif;
+    background: linear-gradient(right bottom, #9dd7d5, #fea096); }
+    .ms-header__title {
+      flex: 1 1 100%;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); }
+
+  .ms-slider {
+    display: inline-block;
+    height: 1.5em;
+    overflow: hidden;
+    vertical-align: middle;
+    mask-image: linear-gradient(transparent, white, white, white, transparent);
+    mask-type: luminance;
+    mask-mode: alpha; }
+    .ms-slider__words {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      animation-name: wordSlider;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+      animation-duration: 20s; }
+    .ms-slider__word {
+      display: block;
+      line-height: 1.3em;
+      text-align: center; }
+
+  @keyframes wordSlider {
+    0%,
+      9% {
+      transform: translateY(0%); }
+    11%,
+      20% {
+      transform: translateY(-11.11%); }
+    22%,
+      31% {
+      transform: translateY(-22.22%); }
+    33%,
+      42% {
+      transform: translateY(-33.33%); }
+    44%,
+      53% {
+      transform: translateY(-44.44%); }
+    55%,
+      64% {
+      transform: translateY(-55.55%); }
+    66%,
+      75% {
+      transform: translateY(-66.66%); }
+    77%,
+      86% {
+      transform: translateY(-77.77%); }
+    88%,
+      97% {
+      transform: translateY(-88.88%); }
+    100% {
+      transform: translateY(-99.99); } }
+  .top-img {
+    width: 100%;
+    height: auto; }
+
+  nav {
+    background-color: #fff;
+    border-bottom: 2px solid red; }
+
+  .long-nav {
+    display: none; }
+
+  .little-nav {
+    display: flex; }
+    .little-nav #logo {
+      font-size: 30px; }
+      .little-nav #logo a:link, .little-nav #logo a:visited {
+        text-decoration: none;
+        color: #00247d; }
+    .little-nav #bars {
+      display: inline-block;
+      cursor: pointer; }
+
+  .ul-no-style {
+    list-style: none; }
+
+  .consult {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 159px; }
+
+  #logo {
+    font-size: 30px; }
+    #logo a:link, #logo a:visited {
+      text-decoration: none;
+      color: #00247d; }
+
+  #bars {
+    display: inline-block;
+    cursor: pointer; }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s; }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px); }
+
+  .change .bar2 {
+    opacity: 0; }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px); }
+
+  #scroll-menu-options {
+    display: none; }
+    #scroll-menu-options li {
+      text-align: center; }
+
+  #carouselExampleControls img {
+    height: 10%; }
+
+  .custom-article {
+    margin: 8%; }
+    .custom-article ul {
+      padding: 0; }
+      .custom-article ul li {
+        list-style: none; }
+
+  #packages {
+    text-align: center; }
+    #packages h3 {
+      text-align: left; }
+    #packages .card {
+      margin: 3% 0; }
+
+  #official-title a {
+    margin: 0 auto;
+    display: block; }
+
+  .description, #characteristics, #teachers, #schedules, #howtogo h3 {
+    margin: 20px 8%; }
+
+  .description {
+    text-align: justify; }
+
+  .block-panel {
+    background-color: #e6e6e6e6; }
+
+  #schedules {
+    padding: 10px 0; }
+    #schedules #dayinterval {
+      text-align: center; }
+    #schedules .ul-no-style {
+      list-style: none;
+      padding: 0; }
+    #schedules .card-custom {
+      margin: 3% auto; }
+      #schedules .card-custom .card-title, #schedules .card-custom p {
+        text-align: center;
+        margin: 10px 0; }
+      #schedules .card-custom ul {
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+        font-size: 18px;
+        list-style-type: none; }
+        #schedules .card-custom ul li {
+          margin: 0 10px;
+          display: inline-block; }
+
+  #teachers {
+    text-align: center; }
+    #teachers img {
+      margin: 0 auto;
+      display: block;
+      border-radius: 100%;
+      height: 100px; }
+    #teachers #teachers-container {
+      margin: 0 auto; }
+    #teachers h3, #teachers p {
+      text-align: left; }
+    #teachers .card-custom {
+      margin: 3%;
+      padding: 32px 0;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: .25rem;
+      display: inline-block;
+      width: 230px;
+      height: 200px; }
+      #teachers .card-custom .teacher-name {
+        text-align: center; }
+
+  #howtogo p {
+    margin: 20px 8%; }
+  #howtogo #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey; }
+
+  #characteristics {
+    margin: 8%;
+    padding: 20px 0; }
+    #characteristics ul {
+      padding: 0 7%;
+      list-style-type: none; }
+
+  .green-success {
+    color: #28a745; }
+
+  #knowmore {
+    margin: 0 auto;
+    display: block;
+    padding: 3% 14%;
+    font-size: 19px;
+    width: 70%; }
+
+  .course {
+    margin: 2% 8%; }
+    .course .title .title-name {
+      color: black; }
+    .course .title .content {
+      display: none; }
+      .course .title .content a {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        margin: 2% 0;
+        background-color: #00247d;
+        border: 1px solid #00247d;
+        color: white; }
+      .course .title .content a:link, .course .title .content a:visited {
+        color: white; }
+
+  #courses {
+    text-align: center; }
+    #courses .card-custom {
+      margin: 5%;
+      padding: 10%;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: .25rem;
+      display: inline-block; }
+      #courses .card-custom .teacher-name {
+        text-align: center; }
+
+  .initial-title {
+    margin: 2% 8%; }
+
+  .template-tables {
+    margin: 8% 0%; }
+
+  #final-text {
+    margin: 25px 0;
+    text-align: center; }
+
+  footer {
+    text-align: center;
+    border-top: 2px solid red;
+    padding: 5%;
+    background-color: #ececec; }
+    footer .whatsapp a:link, footer .whatsapp a:visited {
+      color: white;
+      text-decoration: none; }
+    footer #social {
+      margin-top: 20px; }
+      footer #social .row {
+        width: 100%; }
+        footer #social .row .col {
+          width: 100%; }
+      footer #social ul {
+        text-align: left;
+        padding: 0; }
+      footer #social i {
+        height: 10px; } }
+
+/*# sourceMappingURL=style.css.map */

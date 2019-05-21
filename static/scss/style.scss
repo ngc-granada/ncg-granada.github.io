@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// Vars
+$color1: #fff;
+$linkcolor: #00247d;
+
+body {
+  font-family: raleway;
+}
+
+#page-one{
+  display: none;
+}
+
+#long-page-one{
+  display: block;
+  .carousel-col{
+    padding:0;
+  }
+}
+
+.ms-header {
+  margin:0;
+  display: flex;
+  align-items: center;
+  jsutify-content: center;
+  width: 100%;
+
+  font-family: sans-serif;
+
+  background: linear-gradient(right bottom, rgb(157, 215, 213), lighten(rgb(253, 115, 100), 10%));
+
+  &__title {
+    flex: 1 1 100%;
+    width: 100%;
+
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 2px rgba(black, .4);
+  }
+}
+
+.ms-slider {
+  display: inline-block;
+
+  height: 1.5em;
+  overflow: hidden;
+
+  vertical-align: middle;
+
+  mask-image: linear-gradient(transparent, white, white, white, transparent);
+  mask-type: luminance;
+  mask-mode: alpha;
+
+  &__words {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    animation-name: wordSlider;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+  }
+
+  &__word {
+    display: block;
+    line-height: 1.3em;
+    text-align: center;
+  }
+}
+
+@keyframes wordSlider {
+  $steps: -0%, -11.11%, -22.22%, -33.33%, -44.44%, -55.55%, -66.66%, -77.77%, -88.88%, -99.99;
+
+  @for $index from 0 to length($steps)-1 {
+    $next: $index+1;
+    $step: floor(100/(length($steps)-1));
+    $animation_step: floor($step*.2);
+
+    #{$step*$index}%,
+    #{($step*$next) - $animation_step}% {
+      transform: translateY(nth($steps, $index+1));
+    }
+  }
+  100% {
+    transform: translateY(nth($steps, length($steps)));
+  }
+}
+
+.top-img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  background-color: $color1;
+  border-bottom: 2px solid red;
+}
+
+.little-nav{
+  display: none;
+}
+
+.long-nav{
+    display: block;
+    li .nav-link{
+      padding-top: 12px;
+      margin: 0 20px;
+    }
+    #logo {
+      font-size: 30px;
+      display: inline-block;
+      a:link, a:visited {
+        text-decoration: none;
+        color: $linkcolor;
+      }
+    }
+}
+
+.ul-no-style {
+  list-style: none;
+}
+
+.consult {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 159px;
+}
+
+#bars {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#scroll-menu-options{
+  display: none;
+
+  li {
+    text-align: center;
+  }
+}
+
+#carouselExampleControls{
+  img {
+    height: auto;
+  }
+}
+
+.custom-article {
+  margin: 20px 8%;
+  ul{
+    padding:0;
+    li{
+      list-style: none;
+    }
+  }
+}
+
+#packages {
+  text-align: center;
+  h3 {
+    text-align: left;
+  }
+  .card {
+    margin: 3% 0;
+    font-size: 23px;
+    padding: 3%;
+  }
+}
+
+#official-title {
+  a {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+}
+
+.description, #characteristics, #teachers, #schedules, #howtogo h3 {
+  margin: 20px 8%;
+}
+
+.description {
+  text-align: justify;
+}
+
+.block-panel {
+  background-color: #e6e6e6e6;
+}
+
+#schedules {
+  padding: 10px 0;
+  #dayinterval {
+    text-align: center;
+  }
+
+  .ul-no-style {
+    list-style: none;
+    padding: 0;
+  }
+
+  .card-custom {
+    margin: 3% auto;
+    width: 300px;
+    .card-title, p {
+      text-align: center;
+      margin:10px 0;
+    }
+
+    ul {
+      text-align: center;
+      margin: 10px 0;
+      padding: 0;
+      font-size: 18px;
+      li {
+        margin: 0 10px;
+        display: inline-block;
+      }
+      list-style-type: none;
+    }
+  }
+}
+
+#teachers {
+  text-align: center;
+  img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+    height: 100px;
+  }
+  #teachers-container{
+    margin: 0 auto;
+  }
+  h3,p {
+    text-align: left;
+  }
+  .card-custom {
+    margin: 3%;
+    padding: 32px 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    display: inline-block;
+    width: 230px;
+    height: 200px;
+    .teacher-name {
+      text-align: center;
+    }
+  }
+}
+
+#howtogo {
+  p{
+    margin: 20px 8%;
+  }
+  #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+}
+
+#characteristics {
+  margin: 0 8%;
+  ul {
+    padding: 0 7%;
+    list-style-type: none;
+  }
+  padding: 20px 0;
+}
+
+.green-success {
+  color: #28a745;
+}
+
+#knowmore {
+  margin: 0 auto;
+  display: block;
+  padding: 3% 14%;
+  font-size: 19px;
+  width: 70%;
+}
+
+.course {
+  margin: 2% 8%;
+  .title {
+    .title-name {
+      color: black;
+    }
+    .content {
+      display: none;
+      a {
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        margin: 2% auto;
+        background-color: $linkcolor;
+        border: 1px solid $linkcolor;
+        color: white;
+      }
+      a:link, a:visited {
+        color: white;
+      }
+    }
+  }
+}
+
+#courses {
+  text-align: center;
+  .card-custom {
+    margin: 2%;
+    padding: 4%;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    display: inline-block;
+    .teacher-name {
+      text-align: center;
+    }
+  }
+}
+
+.initial-title {
+  margin: 2% 8%;
+}
+
+.template-tables {
+  margin: 20px 0%;
+}
+
+#final-text{
+  margin: 25px 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid red;
+  padding: 5%;
+  background-color: #ececec;
+  .whatsapp {
+    a:link, a:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  #social {
+    margin-top: 20px;
+    .row {
+      width: 100%;
+      .col{
+        width: 100%;
+      }
+    }
+    ul{
+      text-align: left;
+      padding:0;
+    }
+    i {
+      height: 10px;
+    }
+  }
+}
+
+//Responsive
+@media only screen and (max-width: 1000px) {
+  #page-one{
+    display: block;
+  }
+
+  #long-page-one{
+    display: none;
+  }
+
+  .ms-header {
+    margin:0;
+    display: flex;
+    align-items: center;
+    jsutify-content: center;
+    width: 100%;
+
+    font-family: sans-serif;
+
+    background: linear-gradient(right bottom, rgb(157, 215, 213), lighten(rgb(253, 115, 100), 10%));
+
+    &__title {
+      flex: 1 1 100%;
+      width: 100%;
+
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      text-shadow: 0px 0px 2px rgba(black, .4);
+    }
+  }
+
+  .ms-slider {
+    display: inline-block;
+
+    height: 1.5em;
+    overflow: hidden;
+
+    vertical-align: middle;
+
+    mask-image: linear-gradient(transparent, white, white, white, transparent);
+    mask-type: luminance;
+    mask-mode: alpha;
+
+    &__words {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+
+      list-style: none;
+
+      animation-name: wordSlider;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+      animation-duration: 20s;
+    }
+
+    &__word {
+      display: block;
+      line-height: 1.3em;
+      text-align: center;
+    }
+  }
+
+  @keyframes wordSlider {
+    $steps: -0%, -11.11%, -22.22%, -33.33%, -44.44%, -55.55%, -66.66%, -77.77%, -88.88%, -99.99;
+
+    @for $index from 0 to length($steps)-1 {
+      $next: $index+1;
+      $step: floor(100/(length($steps)-1));
+      $animation_step: floor($step*.2);
+
+      #{$step*$index}%,
+      #{($step*$next) - $animation_step}% {
+        transform: translateY(nth($steps, $index+1));
+      }
+    }
+    100% {
+      transform: translateY(nth($steps, length($steps)));
+    }
+  }
+
+  .top-img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    background-color: $color1;
+    border-bottom: 2px solid red;
+  }
+
+  .long-nav {
+    display: none;
+  }
+
+  .little-nav {
+    display: flex;
+    #logo {
+      font-size: 30px;
+
+      a:link, a:visited {
+        text-decoration: none;
+        color: $linkcolor;
+      }
+    }
+
+    #bars {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+
+  .ul-no-style {
+    list-style: none;
+  }
+
+  .consult {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 159px;
+  }
+
+  #logo {
+    font-size: 30px;
+
+    a:link, a:visited {
+      text-decoration: none;
+      color: $linkcolor;
+    }
+  }
+
+  #bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  #scroll-menu-options{
+    display: none;
+
+    li {
+      text-align: center;
+    }
+  }
+
+  #carouselExampleControls{
+    img {
+      height: 10%;
+    }
+  }
+
+  .custom-article {
+    margin: 8%;
+    ul{
+      padding:0;
+      li{
+        list-style: none;
+      }
+    }
+  }
+
+  #packages {
+    text-align: center;
+    h3 {
+      text-align: left;
+    }
+    .card {
+      margin: 3% 0;
+    }
+  }
+
+  #official-title {
+    a {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  .description, #characteristics, #teachers, #schedules, #howtogo h3 {
+    margin: 20px 8%;
+  }
+
+  .description {
+    text-align: justify;
+  }
+
+  .block-panel {
+    background-color: #e6e6e6e6;
+  }
+
+  #schedules {
+    padding: 10px 0;
+    #dayinterval {
+      text-align: center;
+    }
+
+    .ul-no-style {
+      list-style: none;
+      padding: 0;
+    }
+
+    .card-custom {
+      margin: 3% auto;
+      .card-title, p {
+        text-align: center;
+        margin:10px 0;
+      }
+
+      ul {
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+        font-size: 18px;
+        li {
+          margin: 0 10px;
+          display: inline-block;
+        }
+        list-style-type: none;
+      }
+    }
+  }
+
+  #teachers {
+    text-align: center;
+    img {
+      margin: 0 auto;
+      display: block;
+      border-radius: 100%;
+      height: 100px;
+    }
+    #teachers-container{
+      margin: 0 auto;
+    }
+    h3,p {
+      text-align: left;
+    }
+    .card-custom {
+      margin: 3%;
+      padding: 32px 0;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: .25rem;
+      display: inline-block;
+      width: 230px;
+      height: 200px;
+      .teacher-name {
+        text-align: center;
+      }
+    }
+  }
+
+  #howtogo {
+    p{
+      margin: 20px 8%;
+    }
+    #map {
+      width: 100%;
+      height: 400px;
+      background-color: grey;
+    }
+  }
+
+  #characteristics {
+    margin: 8%;
+    ul {
+      padding: 0 7%;
+      list-style-type: none;
+    }
+    padding: 20px 0;
+  }
+
+  .green-success {
+    color: #28a745;
+  }
+
+  #knowmore {
+    margin: 0 auto;
+    display: block;
+    padding: 3% 14%;
+    font-size: 19px;
+    width: 70%;
+  }
+
+  .course {
+    margin: 2% 8%;
+    .title {
+      .title-name {
+        color: black;
+      }
+      .content {
+        display: none;
+        a {
+          margin: 0 auto;
+          display: block;
+          width: 100%;
+          margin: 2% 0;
+          background-color: $linkcolor;
+          border: 1px solid $linkcolor;
+          color: white;
+        }
+        a:link, a:visited {
+          color: white;
+        }
+      }
+    }
+  }
+
+  #courses {
+    text-align: center;
+    .card-custom {
+      margin: 5%;
+      padding: 10%;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: .25rem;
+      display: inline-block;
+      .teacher-name {
+        text-align: center;
+      }
+    }
+  }
+
+  .initial-title {
+    margin: 2% 8%;
+  }
+
+  .template-tables {
+    margin: 8% 0%;
+  }
+
+  #final-text{
+    margin: 25px 0;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    border-top: 2px solid red;
+    padding: 5%;
+    background-color: #ececec;
+    .whatsapp {
+      a:link, a:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    #social {
+      margin-top: 20px;
+      .row {
+        width: 100%;
+        .col{
+          width: 100%;
+        }
+      }
+      ul{
+        text-align: left;
+        padding:0;
+      }
+      i {
+        height: 10px;
+      }
+    }
+  }
+}
